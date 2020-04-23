@@ -6,4 +6,3 @@ var = int(input("Введите целое число"))
 for i in count(var):
     print(i)
     sleep(1)
-    
