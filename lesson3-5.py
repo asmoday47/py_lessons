@@ -14,4 +14,3 @@ sum_vars = 0
 while sum_end == 0:
     var_list = input("Введите числа через пробел").split()
     print(make_sum(var_list))
-    
