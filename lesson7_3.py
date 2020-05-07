@@ -10,7 +10,7 @@ class Cell:
     cell_count = 0
     def __init__(self,size):
         self.size = size
-        self.cell_count += 1
+        Cell.cell_count += 1
 
 # Сложение. Объединение двух клеток. При этом число ячеек общей клетки должно равняться сумме ячеек исходных двух клеток.
 
@@ -91,6 +91,10 @@ class Cell:
             print("\n")
         for el in range(self.size % cell_row):
             print("*", end="")
+        print()
 
 # a = Cell(18)
 # a.make_order2(7)
+# b = Cell(20)
+# c = Cell(3)
+# print(Cell.cell_count)
